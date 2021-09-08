@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  color: #2d3248;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background: url("./bg-pattern-top.f25f38c9.svg") top -35rem left -5rem no-repeat, url("./bg-pattern-bottom.11e7f7ba.svg") bottom -42rem right 1rem no-repeat, #19a2ae;
+}
+
+a:visited, a:link {
+  color: #00eaff;
+}
+
+.card {
+  width: 35rem;
+  margin: 30rem auto 35rem auto;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+}
+.card_img {
+  position: absolute;
+}
+.card_profile {
+  border: white solid 0.5rem;
+  border-radius: 10rem;
+  z-index: 1;
+  margin-top: 9rem;
+}
+.card_name {
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
+}
+.card_lightfont {
+  margin-left: 0.5rem;
+  color: #969696;
+  font-weight: 400;
+}
+.card_city {
+  margin-top: 1rem;
+  font-size: 1.35rem;
+  color: #6a6f81;
+}
+.card_counts {
+  margin-top: 2.5rem;
+  align-self: stretch;
+  border-top: #969696 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2rem 0;
+}
+.card_amount {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+.card_data {
+  letter-spacing: 0.2rem;
+  color: #969696;
+}
+
+.github {
+  color: rgba(255, 255, 255, 0.7);
+  width: 35rem;
+  margin: 2rem auto;
+  text-align: center;
+  padding: 1.2rem;
+  font-weight: 700;
+  border-radius: 3rem;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: rgba(255, 255, 255, 0.137) solid 1px;
+}
+.github::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(1rem);
+}
+
+.ms_logo {
+  padding: 1.3rem;
+  margin-left: 1rem;
+  background: url("./mslogo.343cbd7c.svg") center/1.5rem 1.5rem no-repeat;
+}
+.ms_logo:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 37rem) {
+  body {
+    background: url("./bg-pattern-top.f25f38c9.svg") top -35rem left -80rem no-repeat, url("./bg-pattern-bottom.11e7f7ba.svg") bottom -42rem right -80rem no-repeat, #19a2ae;
+  }
+
+  .card {
+    margin-top: 20rem;
+    margin-bottom: 25rem;
+  }
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
